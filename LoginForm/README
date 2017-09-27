@@ -1,0 +1,9 @@
+Assignment one: Login Form
+
+Problem: Creating a Login feature, if the password is right, redirect to a page that shows "welcome", otherwise, redirect to another page that prints "Get Lost".
+
+Assumptions: 
+1) I used a random number generator that generates either 0 or 1. If 1, I assumed the user typed correct password otherwise wrong password.
+2) I wasn't hiding the password. I was also not using the password at all in the code. 
+   The relevant part I assumed is that in the case of a correct password, I pass the user name to the servlet that handles
+   the welcome page so that it prints "Welcome " + " Username!!"
